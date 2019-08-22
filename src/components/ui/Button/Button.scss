@@ -2,11 +2,13 @@
 
     .btn {
         cursor: pointer;
+        outline: none;
         
         &.btn-default {
             padding: 10px 15px;
-            border: 2px solid #737C84;
             border-radius: 25px;
+            border: 2px solid #737C84;
+            background-color: #FFFFFF;
             color: #737C84;
             font-size: 16px;
         }
