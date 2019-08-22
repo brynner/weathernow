@@ -1,0 +1,7 @@
+{
+    "version": "1.0",
+    "weatherApi": {
+        "url": "https://api.openweathermap.org/data/2.5/weather?",
+        "appid": "becd669840e62b2bc9662a25ac13e51d"
+    }
+}

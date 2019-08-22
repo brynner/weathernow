@@ -1,0 +1,14 @@
+.component-button {
+
+    .btn {
+        cursor: pointer;
+        
+        &.btn-default {
+            padding: 10px 15px;
+            border: 2px solid #737C84;
+            border-radius: 25px;
+            color: #737C84;
+            font-size: 16px;
+        }
+    }
+}
