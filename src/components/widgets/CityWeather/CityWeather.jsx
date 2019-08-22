@@ -33,8 +33,6 @@ export default class CityWeather extends Component {
   }
 
   fetchData = (cityName) => {
-    
-    this.showLoading();
 
     let weatherNowInCity = JSON.parse(localStorage.getItem(`weatherNow-${cityName}`));
     let expiredData = this.verifyIfDataHasExpired(cityName);
@@ -42,6 +40,7 @@ export default class CityWeather extends Component {
     if (!weatherNowInCity || expiredData) {
 
       this.resetData(cityName);
+      this.showLoading();
 
       /**
        * Não há dados em cache ou foram expirados, 
