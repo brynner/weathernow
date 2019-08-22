@@ -26,7 +26,7 @@ export default class CityWeather extends Component {
         this.fetchData(cityName);
         this.intervalNotification = setInterval(() => {
             this.fetchData(cityName);
-        }, (1000));
+        }, (30000));
     }
     
     fetchData = (cityName) => {
