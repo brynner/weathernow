@@ -55,7 +55,7 @@ const ErrorMessage = ({reloadCard}) => {
             <div className="card-body">
                 <div className="error">
                     <div className="alert alert-error">Something went wrong!</div>
-                    <Button reloadCard={reloadCard}/>
+                    <Button reloadCard={reloadCard} text={`Try Again`} />
                 </div>
             </div>
         </div>
