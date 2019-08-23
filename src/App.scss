@@ -27,6 +27,7 @@ $screen-large: 960px;
         align-items: center;
         margin: 0 auto;
         padding: 15px 0px;
+        min-height: calc(100vh - 90px);
         overflow: hidden;
 
         @media screen and (max-width: $screen-large) {
